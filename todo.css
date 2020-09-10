@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100%;
+    background: radial-gradient(white, rgb(67,125,178));
+}
+.wrapper{
+    height: 350px;
+    width: 350px;
+    margin: 50px auto;
+    border: 8px solid black;
+    border-radius: 20px;
+    background: white;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background: #7C7EFF;
+    border-radius: 10px 10px 0 0;
+    font-size: 27px;
+    padding-top: 10px;
+}
+span{
+    /* border-bottom: dashed 3px #000000; */
+    display: block;
+    height: 90%;
+    width: 100%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.wrap-list{
+    height: 85%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+input[type="checkbox"]{
+    position: relative;
+    top: 14px;
+    right: 12px;
+    float: right;
+}
+input[type="checkbox"]:checked+label{
+    text-decoration: line-through;
+    opacity: 0.2;
+    color: rgba(0, 0, 0,.5);
+}
+.list{
+    list-style-type: none;
+    color: rgba(0, 0, 0,.8);
+}
+.list li{
+    width: 100%;
+    float: left;
+}
+label{
+    padding: 10px;
+    float: left;
+    width: 90%;
+    font-family: 'ABeeZee', sans-serif;
+}
+.color{
+    background: #3fdcff;
+}
